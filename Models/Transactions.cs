@@ -8,8 +8,8 @@ public class Transactions : ITransactions
   {
     get
     {
-      Task<string> result = GetTransactions();
-      return result.Result;
+      Task<string> transactions = GetTransactions();
+      return transactions.Result;
     }
   }
 
