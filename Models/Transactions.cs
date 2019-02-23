@@ -28,7 +28,7 @@ public class Transactions : ITransactions
       catch (HttpRequestException httpRequestException)
       {
         string message = httpRequestException.Message;
-        return "Error getting transactions: {message}";
+        return $"Error getting transactions: {message}";
       }
     }
   }
