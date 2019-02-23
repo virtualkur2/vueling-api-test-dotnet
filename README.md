@@ -1,1 +1,1 @@
-# **Vueling API Test DotNet version**
+# **Vueling API Test dotNet Core 2 version**
