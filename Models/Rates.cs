@@ -8,7 +8,8 @@ public class Rates : IRates
   {
     get
     {
-      Task<string> result = GetRates();
+      Task<string> rates = GetRates();
+      return rates.Result;
     }
   }
 
