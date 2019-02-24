@@ -24,7 +24,7 @@ namespace vueling_api_test_netcore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<ITransactions, Transactions>();
-            services.AddSingleton<IRates, Rates>();
+            services.AddSingleton<ITransactions, Rates>();
             services.AddMvc();
         }
 
