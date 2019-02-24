@@ -2,7 +2,7 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-public class Rates : IRates
+public class Rates : ITransactions
 {
   public string Get
   {
