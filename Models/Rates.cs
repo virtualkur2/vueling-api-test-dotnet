@@ -2,6 +2,7 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
+
 //TODO: Inject URI resource from config variable - Call persistence data
 
 public class Rates : ITransactions
